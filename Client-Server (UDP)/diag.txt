@@ -1,0 +1,13 @@
+Server					Client
+
+socket()				socket()
+
+bind()	
+
+recvfrom()				sendto()
+wait for the
+datagram (blocked) -> back to prev			
+
+					recvfrom() -> Back to prev fxn
+sendto()				
+					close()
